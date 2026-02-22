@@ -13,4 +13,6 @@
 ## Viewing changes
 - git status :- gives the status of git repo like on which branch currently we are
 - git log :- to view the commit history
+## Removing a file from staging area
+- git rm <file_name> :- removes file from staging area and make it untracked 
 
