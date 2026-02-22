@@ -15,4 +15,8 @@
 - git log :- to view the commit history
 ## Removing a file from staging area
 - git rm <file_name> :- removes file from staging area and make it untracked 
+## Branching commands
+- git checkout <branch_name> :- to switch from one brach to other while using command the commit history will also be copied
+- git checkout -b <branch_name> :- creates and switches to a new branch 
+- git switch <branch_name> :- this command switches from one branch to other but does not copied the commit history
 
