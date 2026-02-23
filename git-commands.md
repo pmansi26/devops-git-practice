@@ -31,7 +31,6 @@
     - git remote add origin <ssh_clone_url> :- used to add origin
     - git remote set-url origin <url> :- to set different URl
     - git remote -v :- to view origins
-    ```
   ### Commands
   - git push remote origin <branch_name>
   
