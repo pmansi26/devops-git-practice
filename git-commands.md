@@ -22,3 +22,16 @@
 - git switch <branch_name> :- this command switches from one branch to another which is already existing
 - git branch :- to list the branches in our repo
 - git branch -D <branch_name> :- deletes the branch
+## Push and pull
+- To push or pull code first we need to establish connection from local to remote that can be done in 3 ways
+    - Using ssh
+    - Using PAT
+    - Using http [clone]
+  - After establishing the connection we need to set the origin using the command
+    - git remote add origin <ssh_clone_url> :- used to add origin
+    - git remote set-url origin <url> :- to set different URl
+    - git remote -v :- to view origins
+    ```
+  ### Commands
+  - git push remote origin <branch_name>
+  
